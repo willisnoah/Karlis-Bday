@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+    text-align: left;
+    display: inline-block; 
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+    padding-top: 30px;
+}
+
+li {
+    list-style-type: none;
+    color: pink;
+}
+
+body {
+    text-align: center;
+}
+
+.item {
+    color: violet;
+}
+
+img {
+    background-color: lightpink;
+    padding: 2%;
+}
+
+input {
+    color: pink;
+}
+
+input.sumbit:hover {
+    background-color: white;
+
+}
+   
+
