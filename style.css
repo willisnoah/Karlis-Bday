@@ -1,41 +1,52 @@
 * {
     font-family: sans-serif;
     text-align: left;
-    display: inline-block; 
     background-color: black;
 }
 
 h1 {
     text-align: center;
     color: pink;
-    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 50px;
+
 }
 
-li {
-    list-style-type: none;
+p {
+    text-align: center;
     color: pink;
+    position: relative;
 }
 
 body {
-    text-align: center;
-}
-
-.item {
-    color: violet;
+    text-align: center; 
 }
 
 img {
     background-color: lightpink;
+    margin: 0;
     padding: 2%;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 input {
     color: pink;
 }
 
-input.sumbit:hover {
-    background-color: white;
+.image-container {
+    text-align: center; 
+  }
+  
+  .image-container img {
+    display: flex;
+    margin: 0 auto; 
+  }
+  
+  .image-container p {
+    margin-top: 20px; 
+  }
+  
 
-}
    
 
